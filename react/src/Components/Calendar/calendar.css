@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+    height: 100vh;
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .input-container .react-datepicker-wrapper {
+    margin: 12px 0;
+    width: 100%;
+  }
+  
+  .input-container .react-datepicker-wrapper input {
+    padding: 4px 12px;
+  }
+  
+  .summary {
+    font-size: 18px;
+  }
